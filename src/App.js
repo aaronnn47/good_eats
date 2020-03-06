@@ -19,7 +19,7 @@ class App extends Component {
       </div>
       
       <div className="photobooth">
-        { window.innerWidth > 375 ? (
+        { window.innerWidth > 415 ? (
             <div className="photos">
             <img src={greens} alt=''></img>
             <img src={bowl} alt=''></img>
