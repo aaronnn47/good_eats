@@ -6,8 +6,8 @@ import Menu from './Components/Menu/menu.js'
 
 export default(
     <Switch>
-        <Routes exact path='/' component={Home}/>
-        <Routes path='/menu' component={menu}/>
+        <Route exact path='/' component={Home}/>
+        <Route path='/menu' component={Menu}/>
 
     </Switch>
 )

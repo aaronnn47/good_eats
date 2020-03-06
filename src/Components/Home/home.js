@@ -4,17 +4,17 @@ import greens from '../../Images/greens.png'
 import bowl from '../../Images/bowl.png'
 import salad from '../../Images/salad.png'
 import Carousel from 'react-bootstrap/Carousel'
+import {Link} from 'react-router-dom'
 
-class App extends Component {
-
-
+class Home extends Component {
 
   render(){  
-    
+
   return (
-    <div className="App">      
+    <div className="Home">      
       <div className="text">
        <text>First design concepts</text>
+       <Link to='/menu'>Menu</Link>
       </div>
       
       <div className="photobooth">
@@ -58,4 +58,4 @@ class App extends Component {
   
 }
 
-export default App;
+export default Home;
