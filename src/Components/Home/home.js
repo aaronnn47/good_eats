@@ -48,7 +48,7 @@ class Home extends Component {
       </div>        
 
       <div className="about">
-        <text>Hello world this is what we are about!</text>
+        <text>Fresh, Local, Bright!</text>
       </ div>
 
     </div>
